@@ -6,8 +6,6 @@ const container = document.querySelector(".container");
 const succesMsg = document.querySelector(".alert-container");
 const btnSucess = document.querySelector(".btn-success");
 
-console.log(btnSucess);
-
 btn.addEventListener("click", function () {
   if (email.value === "" || !email.checkValidity()) {
     errorMsg.style.display = "block";
